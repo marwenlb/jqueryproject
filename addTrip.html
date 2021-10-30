@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="jquery.mobile.icons.min.css" />
 		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+
 	</head>
 	<body>
 		<div data-role="page" data-theme="a">
@@ -17,26 +18,44 @@
 			</div>
 			<div data-role="content" data-theme="a">
 
+				<form action="#" method="get">
 
-<div style="width: 100%;" align="middle" ><img src="images/tun.jpg"  style="width: 100%;" /></div>
+<div style="width: 100%;"  align="middle" ><img src="images/gone.jpg"  style="width: 100%;" />
+</div>
+<div>	<input type="text" name="Destination" id="Destination" value="" placeholder="Destination"  /></div>
 
-	<input type="text" name="Destination" id="Destination" value="" placeholder="Destination"  />
+<div>	<input type="date" name="DateOfTrip" id="DateOfTrip" value="" placeholder="Date Of Trip"  /></div>
 
-	<input type="date" name="DateOfTrip" id="DateOfTrip" value="" placeholder="Date Of Trip"  />
+<div>	<input type="text" name="PricePerPerson" id="PricePerPerson" value="" placeholder="Price Per Person"  /></div>
 
-	<input type="text" name="PricePerPerson" id="PricePerPerson" value="" placeholder="Price Per Person"  />
+<div>	<input type="text" name="PhoneNumber" id="PhoneNumber" value="" placeholder="Phone Number"  /></div>
 
-	<input type="text" name="PhoneNumber" id="PhoneNumber" value="" placeholder="Phone Number"  />
+	<div data-role="fieldcontain">
+						<textarea cols="40" rows="8" name="textarea" id="textarea" placeholder="Program details"></textarea>
+					</div>	
+<div>
 
-	<input type="text" name="ProgramDetails" id="ProgramDetails" value="" placeholder="Program Details"  />
+<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg"></div>
+
+
+
+							<div>
+<fieldset class="ui-grid-a" >
+							<button type="submit" data-theme="e"  >Add</button>
+					    </fieldset>
+					</div>
+
+				</form>
 
 
 
 <div data-role="footer">
 <div data-role="navbar">
 					<ul>
-						<li><a href="index.html" data-icon="home" class="ui-btn-active">Home</a></li>
-						<li><a href="trips.html" data-icon="location">Trips</a></li>
+						<li><a href="index.html" data-icon="home" >Home</a></li>
+						<li><a href="trips.html" data-icon="location" class="ui-btn-active">Trips</a></li>
 						<li><a href="listviews.html" data-icon="heart">Lists</a></li>
 						<li><a href="profile.html" data-icon="user">Profile</a></li>
 					</ul>
